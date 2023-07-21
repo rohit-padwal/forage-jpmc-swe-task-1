@@ -1,0 +1,36 @@
+From 0dd858a942b6a73e7e53ecbcb83488d0a5341fe6 Mon Sep 17 00:00:00 2001
+From: Rohit Padwal <rpadwal98@gmail.com>
+Date: Thu, 20 Jul 2023 19:31:38 -0500
+Subject: [PATCH] "Initial commit"
+
+---
+ client3.py     | 1 -
+ client_test.py | 1 -
+ 2 files changed, 2 deletions(-)
+
+diff --git a/client3.py b/client3.py
+index b01b477..4858f68 100644
+--- a/client3.py
++++ b/client3.py
+@@ -46,7 +46,6 @@ def getRatio(price_a, price_b):
+         return
+     return price_a/price_b
+ 
+-
+ # Main
+ if __name__ == "__main__":
+     # Query the price once every N seconds.
+diff --git a/client_test.py b/client_test.py
+index df0e2ac..0eb243c 100644
+--- a/client_test.py
++++ b/client_test.py
+@@ -25,6 +25,5 @@ class ClientTest(unittest.TestCase):
+ 
+   """ ------------ Add more unit tests ------------ """
+ 
+-
+ if __name__ == '__main__':
+     unittest.main()
+-- 
+2.39.2.windows.1
+
